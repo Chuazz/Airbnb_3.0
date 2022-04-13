@@ -1,0 +1,20 @@
+@media (max-width:899px) {
+    .col{
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1130px) {
+    .col{
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 744px) and (max-width: 1100px) {
+    .layout__container{
+        margin: 40px;
+        width: auto;
+    }
+}

@@ -1,0 +1,180 @@
+/* mobile */
+@media (max-width: 743px){
+    .s-m-b-8{
+        margin-bottom: 8px;
+    }
+
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: start;
+    }
+
+    .license__item-hd{
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .license__item::before{
+        margin-left: -5px;
+    }
+
+    .license__item--mar{
+        margin: 0 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+    }
+
+    .footer__contact-item{
+        padding-right: 24px;
+        padding-left: 0;
+    }
+}
+
+/* tablet */
+@media (min-width: 744px) and (max-width: 949px){
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: center;
+    }
+
+    .license__item-hd{
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 70px !important;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+    }
+}
+/* PC low */
+@media (min-width: 950px) and (max-width: 1127px){
+    .l-m-l-16{
+        margin-left: 16px;
+    }
+
+    .l-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: center;
+    }
+
+    .license__item-hd{
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 70px !important;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+        margin-left: 26px;
+    }
+
+    .footer__contact-item{
+        padding-right: 28px;
+    }
+}

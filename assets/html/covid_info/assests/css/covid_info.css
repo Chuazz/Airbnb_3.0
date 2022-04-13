@@ -1,0 +1,273 @@
+.relative{
+    position: relative;
+}
+
+.white{
+    color: white;
+}
+
+
+.p-t-b-6{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.border-r{
+    border-right: 1px solid var(--border__color);
+}
+
+.border-l{
+    border-left: 1px solid var(--border__color);
+}
+
+.jus-center{
+    justify-content: center;
+}
+
+.jus-end{
+    justify-content: end;
+}
+
+.ali-center{
+    align-items: center;
+}
+/* =============== header ===============*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    padding: 24px;
+}
+
+.fa-airbnb{
+    font-size: 3.4rem;
+    color: var(--rgb__color--light-red);
+}
+/* =============== header ===============*/
+
+/* ============== content ===============*/
+.safe__back{
+    padding: 96px 0;
+    margin: 0 -25px;
+}
+
+.section__hd{
+    font-size: 4.8rem;
+    color: #222;
+    text-align: center;
+}
+
+.section__ct{
+    font-size: 2.6rem;
+    color: #222;
+    text-align: center;
+    padding: 12px 0 85px;
+}
+
+.safe__body{
+    padding: 0 25px;
+}
+
+.content__img{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.safe-body__ct{
+    color: #222;
+    margin-bottom: 94px;
+    display: block;
+}
+
+.safe__hd{
+    padding-top: 8px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.safe__dct{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+}
+
+.safe__more-dct{
+    font-size: 1.6rem;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.safe__back--low-mar{
+    margin: 0 -16px;
+}
+
+.safe__body--low-pad{
+    padding: 0 16px;
+}
+
+.safe__img{
+    width: 96px;
+}
+
+.safe__hd--big{
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+.safe__dct--big{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.find__solution{
+    padding: 13px 23px;
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    border-radius: 15px;
+    margin-bottom: 160px;
+}
+
+.find__solution:hover{
+    background: var(--hover__color);
+}
+
+div[class*="content__poster"]{
+    padding: 0 16px;
+    height: 660px;
+}
+
+.content__poster-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.section__hd--pad{
+    padding-bottom: 60px;
+}
+
+.safe__body--pad{
+    font-size: 2rem;
+    color: #222;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.safe__body--pad-ct{
+    border-bottom: 1px solid #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.safe__back--big-mar{
+    margin: 0 -40px;
+}
+
+.resources__body{
+    padding: 30px 40px 0 40px;
+}
+
+.resources__body p{
+    font-size: 3rem;
+    font-weight: 500;
+    height: 110px;
+    color: #222;
+}
+
+.resources__body a{
+    font-size: 2rem;
+    color: #222;
+    text-decoration: underline;
+    font-weight: 500;
+}
+/* ============== content ===============*/
+
+/* ============== footer ================*/
+#footer{
+    background: var(--fade__color);
+}
+
+.problems__list{
+    padding: 48px 0;
+}
+
+.problem__hd{
+    font-weight: bolder;
+}
+
+.problem__hd,
+.problem__item a{
+    font-size: 1.6rem;
+    color: var(--title__color);
+}
+
+.problem__item:hover{
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.footer__license{
+    padding: 24px 0;
+}
+
+div[class*="license__item"] a{
+    font-size: 1.6rem;
+    color: var(--title__color);
+}
+
+.license__item{
+    padding: 0 12px;
+}
+
+.license__item--no-style{
+    margin-left: 12px;
+}
+
+.license__item::before{
+    display: block;
+    content: "";
+    position: absolute;
+    background: #000000;
+    width: 3px;
+    height: 3px;
+    left: 0;
+    top: 10px;
+    border-radius: 100%;
+}
+
+.license__item:hover{
+    cursor: pointer;
+}
+
+.footer__hr{
+    display: none;
+}
+
+.footer__setting{
+    font-size: 1.6rem;
+}
+
+.footer__setting-ct{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.footer__setting-ct:hover{
+    cursor: pointer;
+}
+
+.footer__contact-icon{
+    color: var(--title__color);
+    float: right;
+    font-size: 2rem;
+}
+/* ============== footer ================*/
